@@ -1,0 +1,2 @@
+<user text-hide="{{text_hide}}"></user>
+<view style="background: #fe66a3;border-radius: 50%;width: 200px;height: 200px;position: absolute;top: {{windowHeight/2-100}}px;left: {{windowWidth/2-100}}px;color: #fff;line-height: 200px;text-align: center;" bindtap="hide_text">点击隐藏字体</view>

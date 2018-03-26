@@ -1,0 +1,1 @@
+<view style="height: {{windowHeight/2}}px; line-height:{{windowHeight/2}}px;text-align: center; width: 100%;background: #3d94ff;color:#fff;">{{textHide?'':'top'}}</view>

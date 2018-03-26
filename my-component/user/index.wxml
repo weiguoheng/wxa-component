@@ -1,0 +1,2 @@
+<user-top text-hide="{{textHide}}"></user-top>
+<user-bottom text-hide="{{textHide}}"></user-bottom>

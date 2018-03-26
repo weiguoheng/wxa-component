@@ -1,0 +1,2 @@
+<component-index home-content="{{content}}"></component-index>
+<view style="width: 100%;text-align: center;color:#ccc;border-top:solid 1px black;">这里是pages/home/index部分</view>

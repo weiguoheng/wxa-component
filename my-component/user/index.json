@@ -1,0 +1,8 @@
+{
+"component": true,
+  "usingComponents":
+    {
+        "user-top": "./user-top/index",
+        "user-bottom": "./user-bottom/index"
+    }
+}

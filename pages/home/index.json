@@ -1,0 +1,7 @@
+{
+"component": true,
+  "usingComponents":
+    {
+        "component-index": "../../my-component/home/index"
+    }
+}

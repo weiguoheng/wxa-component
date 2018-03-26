@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+</view>
+<view style="width: 100%;text-align: center;color:#ccc;">这里是my-component/home/index部分</view>
+<view style="width: 100%;text-align: center;color:#ccc;">pages/home传来的值：{{homeContent}}</view>

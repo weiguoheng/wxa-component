@@ -1,0 +1,7 @@
+{
+"component": true,
+  "usingComponents":
+    {
+        "user": "../../my-component/user/index"
+    }
+}
